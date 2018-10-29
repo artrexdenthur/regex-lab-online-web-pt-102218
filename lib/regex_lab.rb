@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   words_arr = text.split
-  word_arr.grep(/\bun|ing\b/)
+  words_arr.grep(/\bun|ing\b/)
 end
 
 def words_five_letters_long(text)
